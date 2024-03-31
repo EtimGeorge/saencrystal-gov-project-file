@@ -1,0 +1,47 @@
+:root {
+  --clr-
+}
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+  background-color: #e5dede;
+}
+
+.box-3 {
+  background-color: hsl(116, 60%, 86%);
+} 
+
+
+
+
+.container {
+  width: 80%; /* Set container width */
+  margin: 20px auto; /* Set margin for centering */
+  border: 2px solid #bed110; /* Add border */
+  padding: 10px; /* Add padding */
+  overflow: hidden; /* Hide overflow */
+  background-color: rgb(255, 255, 255);
+}
+
+.question {
+  font-weight: bold; /* Bold question text */
+  cursor: pointer; /* Set cursor to pointer */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between question and icon */
+  align-items: center; /* Center vertically */
+}
+
+.answer {
+  display: none; /* Hide answer by default */
+  margin-top: 10px; /* Add margin at the top */
+}
+
+.icon {
+  cursor: pointer; /* Set cursor to pointer */
+}
