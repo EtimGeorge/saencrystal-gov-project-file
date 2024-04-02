@@ -7,15 +7,99 @@
 * {
    margin: 0;
    padding: 0;
+   box-sizinf:border-box;
 }
 
 body {
   background-color: #e5dede;
+  font-family: "Manrope", "consolas", "sans-serif";
+  
+}
+
+
+h1,h2, {
+  padding: 1em;
+  font-size: 30px;
+  color: #098e0e;
+}
+
+.main {
+  display: grid;
+  
+  position: fixed;
+  top: 0px;
+  border-radius: 0;
+  width: 100%;
+}
+
+.colum-1 {
+  background: rgb(255, 255, 255);
+  padding-block: 2em;
+}
+
+.colum-2-dark {
+  background-color: black;
+  color: white;
+}
+
+.box-2 {
+  background-color: hsl(151, 41%, 90%);
+  padding: 5em 2em;
 }
 
 .box-3 {
   background-color: hsl(116, 60%, 86%);
 } 
+
+.box-1 {
+  background-color: #098e0e;
+  padding-top: 2em;
+  background-image: url(/);
+}
+
+.card {
+  padding-block: 2em;
+  background-color: white;
+  margin: 5em 2em;
+  border-radius: 5%;
+
+  
+}
+
+.card img {
+  margin: 2em;
+  border-radius: 5%;
+}
+
+h3.target {
+  padding: 1em;
+  font-size: 30px;
+  color: hsl(122, 88%, 30%);
+}
+
+p small {
+  margin: 2rem;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2em;
+}
+
+button {
+  background-color: #098e0e;
+  color: white;
+  padding: 1em;
+  border: none;
+}
+
+button: hover: ;
+
+a {
+  text-decoration: none;
+}
 
 
 
